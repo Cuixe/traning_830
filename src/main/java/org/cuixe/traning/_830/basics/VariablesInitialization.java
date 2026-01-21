@@ -22,6 +22,6 @@ public class VariablesInitialization {
         System.out.println(x);
         System.out.println(z);
         System.out.println(new VariablesInitialization().c);
-        System.out.println(y); // This will cause a compilation error
+        //System.out.println(y); // This will cause a compilation error
     }
 }
