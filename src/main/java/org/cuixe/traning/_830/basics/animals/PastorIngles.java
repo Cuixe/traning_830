@@ -11,4 +11,10 @@ public class PastorIngles implements Canino {
     public boolean esRastreador() {
         return true;
     }
+    @Override
+    public void hazSonido() {
+        this.ladrar();
+    }
+
+
 }

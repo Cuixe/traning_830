@@ -3,7 +3,34 @@ package org.cuixe.traning._830.basics;
 public class StringBasics {
 
     public static void main(String[] args) {
-        creation();
+        //creation();
+        //charAt();
+        substring();
+        indexOf();
+    }
+
+    public static void length() {
+        System.out.println("animal".length()); //6
+    }
+
+    public static void charAt() {
+        System.out.println("animal".charAt(0)); //a
+        System.out.println("animal".charAt(5)); //l
+        System.out.println("animal".charAt(6)); //Exception
+    }
+
+    public static void substring() {
+        System.out.println("animal".substring(3)); //mal
+        System.out.println("animal".substring(5)); //l
+        System.out.println("animal".substring(2, 4)); //im
+    }
+
+    public static void indexOf() {
+        System.out.println("animal".indexOf('a')); //0
+        System.out.println("animal".indexOf("al")); //4
+        System.out.println("animal".indexOf('a', 4)); //4
+        System.out.println("animal".indexOf("al", 5)); //-1
+        System.out.println("animal".indexOf('a',2,4)); //-1
     }
 
     public static void creation() {
@@ -38,6 +65,12 @@ public class StringBasics {
 
         "abc".contains("a");  //true
         "abc".contains("B");  //false
+    }
+
+    public static void equals() {
+        var x = "abc";
+        var y = "abc";
+        System.out.println(x == y);
     }
 
 }

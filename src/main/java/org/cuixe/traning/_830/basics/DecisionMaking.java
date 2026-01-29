@@ -98,7 +98,7 @@ public class DecisionMaking {
     }
 
     private static void forLoop() {
-        for(int i=0, j=0, k=0; i<10;i++) {
+        for(int i=0, j=0, k=0; i<10; i++,k++) {
             if (i%2 == 0) {
                 j++;
             }
